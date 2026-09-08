@@ -8,7 +8,7 @@
  */
 using System;
 
-namespace FiniteElementSimple
+namespace FiniteElementSimple.Materials
 {
 	/// <summary>
 	/// Description of LinElastic1D.

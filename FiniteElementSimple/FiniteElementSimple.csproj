@@ -86,7 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assembly.cs" />
-    <Compile Include="BodyForce.cs" />
+    <Compile Include="BoundaryConditions\BodyForce.cs" />
     <Compile Include="Elements\CylindricalAtOrigin_Node4Element2D.cs" />
     <Compile Include="Elements\Cylindrical_Node3Element2D.cs" />
     <Compile Include="Elements\Cylindrical_Node4Element2D.cs" />
@@ -98,16 +98,16 @@
     <Compile Include="Elements\TriangularElement2D.cs" />
     <Compile Include="Homework\HW10.cs" />
     <Compile Include="Homework\HW6.cs" />
-    <Compile Include="InitialStrain.cs" />
+    <Compile Include="BoundaryConditions\InitialStrain.cs" />
     <Compile Include="Elements\Node2Element1D.cs" />
-    <Compile Include="LinElastic1D.cs" />
-    <Compile Include="Material.cs" />
+    <Compile Include="Materials\LinElastic1D.cs" />
+    <Compile Include="Materials\Material.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Elements\Node3Element1D.cs" />
     <Compile Include="Elements\Node8Element2D.cs" />
-    <Compile Include="SetupLinear1DConsecutiveElementProblem.cs" />
-    <Compile Include="SurfaceTraction.cs" />
+    <Compile Include="Homework\SetupLinear1DConsecutiveElementProblem.cs" />
+    <Compile Include="BoundaryConditions\SurfaceTraction.cs" />
     <Compile Include="Tests\CylElementTests.cs" />
     <Compile Include="Tests\Lin1DTests.cs" />
     <Compile Include="Tests\Quad1DTest.cs" />

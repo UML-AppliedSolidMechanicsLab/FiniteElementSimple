@@ -10,7 +10,7 @@ using System;
 using RandomMath;
 using FiniteElementSimple.Elements;
 
-namespace FiniteElementSimple
+namespace FiniteElementSimple.BoundaryConditions
 {
 	/// <summary>
 	/// Description of SurfaceForce.

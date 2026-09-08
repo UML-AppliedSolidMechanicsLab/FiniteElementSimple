@@ -8,7 +8,7 @@
  */
 using System;
 
-namespace FiniteElementSimple
+namespace FiniteElementSimple.BoundaryConditions
 {
 	/// <summary>
 	/// Description of InitialStrain.

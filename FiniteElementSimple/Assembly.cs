@@ -10,7 +10,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using FiniteElementSimple.Elements;
-using FiniteElementSimple.Plotting;
 
 namespace FiniteElementSimple
 {
@@ -69,27 +68,6 @@ namespace FiniteElementSimple
 			
 		}
 
-		public void PlotOutline(int nPointsPerSide)
-		{
-			//plot a little x/y axis
-			List<double[]> lX = new List<double[]>();
-			List<double[]> lY = new List<double[]>();
-			List<string> lLabels = new List<string>();
-            //Loop through each element
-            for (int i = 0; i < lElements.Count; i++)
-            {
-				lElements[i].DrawOutline(out double[] X, out double[] Y, nPointsPerSide);
-				lX.Add(X);
-				lY.Add(Y);
-				lLabels.Add(i.ToString());
-			}
-
-			
-			SinglePlotForm myPlot = new SinglePlotForm("Mesh", "x", "y", lLabels, lX, lY, showLegend: false, showMarkers: false);
-			myPlot.Plot();
-			//myPlot.Activate();
-			//myPlot.ShowDialog();
-		}
 		#endregion
 		
 		#region Private Methods

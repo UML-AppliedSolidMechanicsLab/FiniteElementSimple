@@ -6,13 +6,15 @@
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
+using FiniteElementSimple.BoundaryConditions;
+using FiniteElementSimple.Elements;
+using FiniteElementSimple.Materials;
+using FiniteElementSimple.Output;
+using MathNet.Numerics.Distributions;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Drawing;
-using FiniteElementSimple.Elements;
-using FiniteElementSimple.BoundaryConditions;
-using FiniteElementSimple.Materials;
+using System.Linq;
 
 namespace FiniteElementSimple.Homework
 {
@@ -98,16 +100,19 @@ namespace FiniteElementSimple.Homework
 			Assembly myAssembly = new Assembly(lElements, lLoads, lBCs, 2);
 			myAssembly.Solve();
 			
-			CreateContourPlot(myAssembly, 25, 25, 0, 0, false);
-			CreateContourPlot(myAssembly, 25, 25, 0, 1, false);
+			//CreateContourPlot(myAssembly, 25, 25, 0, 0, false);
+			//CreateContourPlot(myAssembly, 25, 25, 0, 1, false);
 			//CreateContourPlot(myAssembly, 50, 50, 1, 0);
 			//CreateContourPlot(myAssembly, 50, 50, 1, 1);
 			//CreateContourPlot(myAssembly, 50, 50, 1, 2);
-			CreateContourPlot(myAssembly, 25, 25, 2, 0, true);
-			CreateContourPlot(myAssembly, 25, 25, 2, 1, true);
-			CreateContourPlot(myAssembly, 25, 25, 2, 2, true);
-			
-		}
+			//CreateContourPlot(myAssembly, 25, 25, 2, 0, true);
+			//CreateContourPlot(myAssembly, 25, 25, 2, 1, true);
+			//CreateContourPlot(myAssembly, 25, 25, 2, 2, true);
+
+            VtuWriter.Write(myAssembly, "C:\\Users\\Scott_Stapleton\\Downloads\\DefOnly.vtu");
+            VtuWriter.WriteSampledVisualization(myAssembly, "C:\\Users\\Scott_Stapleton\\Downloads\\SGrid.vtu");
+            VtuWriter.WriteIntegrationPointResults(myAssembly, "C:\\Users\\Scott_Stapleton\\Downloads\\intPts.vtu");
+        }
 
 		public static void RunHW3_Example()
 		{

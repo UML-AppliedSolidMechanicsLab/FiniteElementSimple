@@ -50,6 +50,25 @@ namespace FiniteElementSimple.Elements
 
         #region public methods
 
+        /// <summary>
+        /// The actual Gaussian integration-point locations (in natural xi/eta coordinates) used
+        /// by this element's stiffness/force integration. Exposed read-only for visualization/output
+        /// purposes only; does not affect and is not affected by the FE solution.
+        /// </summary>
+        public IEnumerable<(double xi, double eta)> GaussPoints
+        {
+            get
+            {
+                for (int i = 0; i < nIntPts_xi; i++)
+                {
+                    for (int j = 0; j < nIntPts_eta; j++)
+                    {
+                        yield return (loc[nIntPts_xi - 1][i], loc[nIntPts_eta - 1][j]);
+                    }
+                }
+            }
+        }
+
         public override void IntegrateKandFOverVolume()
         {
 			double zeta = 0.0;

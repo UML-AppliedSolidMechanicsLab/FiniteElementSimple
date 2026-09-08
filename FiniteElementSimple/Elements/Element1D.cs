@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using RandomMath;
+using FiniteElementSimple.Materials;
+using FiniteElementSimple.BoundaryConditions;
 
 namespace FiniteElementSimple.Elements
 {
@@ -71,7 +73,7 @@ namespace FiniteElementSimple.Elements
 					{
 						double[] f_b = bf.BodyForce_per_Area(xi, eta, zeta);
 						double[] NTf_body = MatrixMath.Multiply(NTtemp, f_b);
-						double[] tempF = VectorMath.ScalarMultiply((area) * det_J * w[nIntPts - 1][i], NTf_body);
+						double[] tempF = VectorMath.ScalarMultiply(det_J * w[nIntPts - 1][i], NTf_body);
 						f = VectorMath.Add(tempF, f);
 					}
 					foreach (InitialStrain el in lInitialStrain)
@@ -79,7 +81,7 @@ namespace FiniteElementSimple.Elements
 						double[] x = GlobalXPosition(xi, eta, zeta);
 						double[] e0 = el.epsilon_0(x[0], x[1], x[2]);
 						double[] NTe_0 = MatrixMath.Multiply(BTD, e0);
-						double[] tempe0 = VectorMath.ScalarMultiply((area) * det_J * w[nIntPts - 1][i], NTe_0);
+						double[] tempe0 = VectorMath.ScalarMultiply(det_J * w[nIntPts - 1][i], NTe_0);
 						f = VectorMath.Add(tempe0, f);
 
 					}

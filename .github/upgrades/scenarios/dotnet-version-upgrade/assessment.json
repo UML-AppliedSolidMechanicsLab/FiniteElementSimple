@@ -1,0 +1,1245 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": false
+    },
+    "targetId": "net10.0",
+    "targetDisplayName": ".NETCoreApp,Version=v10.0"
+  },
+  "analysisStartTime": "2026-09-08T19:17:43.0788459Z",
+  "analysisEndTime": "2026-09-08T19:17:44.1149871Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 2,
+      "issues": 8,
+      "incidents": 48,
+      "effort": 48
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 33,
+        "Optional": 0,
+        "Potential": 15,
+        "Information": 0
+      },
+      "category": {
+        "NuGet": 9,
+        "Project": 3,
+        "Api": 22,
+        "Binding": 14
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "FiniteElementSimple\\FiniteElementSimple.csproj",
+      "startingProject": true,
+      "issues": 7,
+      "storyPoints": 47,
+      "properties": {
+        "appName": "FiniteElementSimple",
+        "projectKind": "ClassicWinForms",
+        "frameworks": [
+          "net48"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 33,
+        "numberOfCodeFiles": 21,
+        "linesTotal": 596040,
+        "linesOfCode": 2041,
+        "totalApiScanned": 1389,
+        "minLinesOfCodeToChange": 22,
+        "maxLinesOfCodeToChange": 22
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "44853cc4-97f9-4d83-b1e4-1c7ba699f0cb",
+          "ruleId": "NuGet.0001",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "OpenTK, 3.1.0\n\nRecommendation:\n\nOpenTK, 4.9.4",
+              "protected": "OpenTK, 3.1.0\n\nRecommendation:\n\nOpenTK, 4.9.4"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\FiniteElementSimple.csproj",
+            "snippet": "OpenTK, 3.1.0\n\nRecommendation:\n\nOpenTK, 4.9.4",
+            "protectedSnippet": "OpenTK, 3.1.0\n\nRecommendation:\n\nOpenTK, 4.9.4",
+            "label": "OpenTK 3.1.0",
+            "properties": {
+              "PackageId": "OpenTK",
+              "PackageVersion": "3.1.0",
+              "PackageNewVersion": "4.9.4",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "de7b03cb-da6e-4a1b-99b6-73893c3bb541",
+          "ruleId": "NuGet.0001",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "OpenTK.GLControl, 3.1.0\n\nRecommendation:\n\nOpenTK.GLControl, 4.0.2",
+              "protected": "OpenTK.GLControl, 3.1.0\n\nRecommendation:\n\nOpenTK.GLControl, 4.0.2"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\FiniteElementSimple.csproj",
+            "snippet": "OpenTK.GLControl, 3.1.0\n\nRecommendation:\n\nOpenTK.GLControl, 4.0.2",
+            "protectedSnippet": "OpenTK.GLControl, 3.1.0\n\nRecommendation:\n\nOpenTK.GLControl, 4.0.2",
+            "label": "OpenTK.GLControl 3.1.0",
+            "properties": {
+              "PackageId": "OpenTK.GLControl",
+              "PackageVersion": "3.1.0",
+              "PackageNewVersion": "4.0.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "ee08208e-413f-456a-8f12-1c4a47858ae6",
+          "ruleId": "NuGet.0001",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "ScottPlot.WinForms, 5.1.59\n\nRecommendation:\n\nScottPlot.WinForms, 4.1.73",
+              "protected": "ScottPlot.WinForms, 5.1.59\n\nRecommendation:\n\nScottPlot.WinForms, 4.1.73"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\FiniteElementSimple.csproj",
+            "snippet": "ScottPlot.WinForms, 5.1.59\n\nRecommendation:\n\nScottPlot.WinForms, 4.1.73",
+            "protectedSnippet": "ScottPlot.WinForms, 5.1.59\n\nRecommendation:\n\nScottPlot.WinForms, 4.1.73",
+            "label": "ScottPlot.WinForms 5.1.59",
+            "properties": {
+              "PackageId": "ScottPlot.WinForms",
+              "PackageVersion": "5.1.59",
+              "PackageNewVersion": "4.1.73",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "28b2caee-50b9-4a1d-bab0-12ef30ce17f2",
+          "ruleId": "NuGet.0001",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "SkiaSharp.Views.WindowsForms, 3.119.0\n\nRecommendation:\n\nSkiaSharp.Views.WindowsForms, 2.88.9",
+              "protected": "SkiaSharp.Views.WindowsForms, 3.119.0\n\nRecommendation:\n\nSkiaSharp.Views.WindowsForms, 2.88.9"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\FiniteElementSimple.csproj",
+            "snippet": "SkiaSharp.Views.WindowsForms, 3.119.0\n\nRecommendation:\n\nSkiaSharp.Views.WindowsForms, 2.88.9",
+            "protectedSnippet": "SkiaSharp.Views.WindowsForms, 3.119.0\n\nRecommendation:\n\nSkiaSharp.Views.WindowsForms, 2.88.9",
+            "label": "SkiaSharp.Views.WindowsForms 3.119.0",
+            "properties": {
+              "PackageId": "SkiaSharp.Views.WindowsForms",
+              "PackageVersion": "3.119.0",
+              "PackageNewVersion": "2.88.9",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "ef4a853d-f47f-4b60-ada7-9edfb089819f",
+          "ruleId": "NuGet.0003",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Buffers, 4.5.1\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "System.Buffers, 4.5.1\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\FiniteElementSimple.csproj",
+            "snippet": "System.Buffers, 4.5.1\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "System.Buffers, 4.5.1\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "System.Buffers 4.5.1",
+            "properties": {
+              "PackageId": "System.Buffers",
+              "PackageVersion": "4.5.1",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "b7956e1d-73ea-43d2-bcf9-b83f2b17bbf2",
+          "ruleId": "NuGet.0003",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Memory, 4.5.5\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "System.Memory, 4.5.5\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\FiniteElementSimple.csproj",
+            "snippet": "System.Memory, 4.5.5\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "System.Memory, 4.5.5\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "System.Memory 4.5.5",
+            "properties": {
+              "PackageId": "System.Memory",
+              "PackageVersion": "4.5.5",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "412a1588-556a-4097-8aa0-e79e47a348db",
+          "ruleId": "NuGet.0003",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Numerics.Vectors, 4.5.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "System.Numerics.Vectors, 4.5.0\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\FiniteElementSimple.csproj",
+            "snippet": "System.Numerics.Vectors, 4.5.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "System.Numerics.Vectors, 4.5.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "System.Numerics.Vectors 4.5.0",
+            "properties": {
+              "PackageId": "System.Numerics.Vectors",
+              "PackageVersion": "4.5.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "b4438d3a-6069-40d5-948d-6a4da4af196c",
+          "ruleId": "NuGet.0002",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Runtime.CompilerServices.Unsafe, 4.5.3\n\nRecommendation:\n\nRemove System.Runtime.CompilerServices.Unsafe, and replace with new package System.Runtime.CompilerServices.Unsafe 6.1.2",
+              "protected": "System.Runtime.CompilerServices.Unsafe, 4.5.3\n\nRecommendation:\n\nRemove System.Runtime.CompilerServices.Unsafe, and replace with new package System.Runtime.CompilerServices.Unsafe 6.1.2"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\FiniteElementSimple.csproj",
+            "snippet": "System.Runtime.CompilerServices.Unsafe, 4.5.3\n\nRecommendation:\n\nRemove System.Runtime.CompilerServices.Unsafe, and replace with new package System.Runtime.CompilerServices.Unsafe 6.1.2",
+            "protectedSnippet": "System.Runtime.CompilerServices.Unsafe, 4.5.3\n\nRecommendation:\n\nRemove System.Runtime.CompilerServices.Unsafe, and replace with new package System.Runtime.CompilerServices.Unsafe 6.1.2",
+            "label": "System.Runtime.CompilerServices.Unsafe 4.5.3",
+            "properties": {
+              "PackageId": "System.Runtime.CompilerServices.Unsafe",
+              "PackageVersion": "4.5.3",
+              "PackageNewVersion": "6.1.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "1a72a18d-16b6-443f-99ac-97a9fc20054c",
+          "ruleId": "NuGet.0003",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.ValueTuple, 4.6.1\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "System.ValueTuple, 4.6.1\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\FiniteElementSimple.csproj",
+            "snippet": "System.ValueTuple, 4.6.1\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "System.ValueTuple, 4.6.1\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "System.ValueTuple 4.6.1",
+            "properties": {
+              "PackageId": "System.ValueTuple",
+              "PackageVersion": "4.6.1",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "706d4d0d-d52d-456f-a00d-414c0d366e0f",
+          "ruleId": "Project.0001",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+          }
+        },
+        {
+          "incidentId": "f3686c09-f5cf-415e-ab07-8ec19b46c15f",
+          "ruleId": "Project.0002",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0-windows",
+              "protected": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0-windows"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\FiniteElementSimple.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0-windows",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0-windows",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.8",
+              "RecommendedTargetFramework": "net10.0-windows"
+            }
+          }
+        },
+        {
+          "incidentId": "cfe30d88-6c55-4c6b-83f9-64d096768905",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Controls.Add(fp);",
+              "protected": "T:System.Windows.Forms.Control.ControlCollection"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\Plotting\\SinglePlotForm.cs",
+            "snippet": "Controls.Add(fp);",
+            "protectedSnippet": "T:System.Windows.Forms.Control.ControlCollection",
+            "label": "T:System.Windows.Forms.Control.ControlCollection",
+            "line": 105,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "6f0edf9a-47bd-449f-8aa8-1ffd9ed75137",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Controls.Add(fp);",
+              "protected": "P:System.Windows.Forms.Control.Controls"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\Plotting\\SinglePlotForm.cs",
+            "snippet": "Controls.Add(fp);",
+            "protectedSnippet": "P:System.Windows.Forms.Control.Controls",
+            "label": "P:System.Windows.Forms.Control.Controls",
+            "line": 105,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "89155ab2-f9dc-45a7-b206-fb74257b6813",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Controls.Add(fp);",
+              "protected": "M:System.Windows.Forms.Control.ControlCollection.Add(System.Windows.Forms.Control)"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\Plotting\\SinglePlotForm.cs",
+            "snippet": "Controls.Add(fp);",
+            "protectedSnippet": "M:System.Windows.Forms.Control.ControlCollection.Add(System.Windows.Forms.Control)",
+            "label": "M:System.Windows.Forms.Control.ControlCollection.Add(System.Windows.Forms.Control)",
+            "line": 105,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "649d5d53-bf21-41e6-8644-c446c5a46e49",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var fp = new FormsPlot { Dock = DockStyle.Fill };",
+              "protected": "T:System.Windows.Forms.DockStyle"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\Plotting\\SinglePlotForm.cs",
+            "snippet": "var fp = new FormsPlot { Dock = DockStyle.Fill };",
+            "protectedSnippet": "T:System.Windows.Forms.DockStyle",
+            "label": "T:System.Windows.Forms.DockStyle",
+            "line": 104,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "32202c82-14f3-4ee5-960a-055c09a0e575",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var fp = new FormsPlot { Dock = DockStyle.Fill };",
+              "protected": "T:System.Windows.Forms.DockStyle"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\Plotting\\SinglePlotForm.cs",
+            "snippet": "var fp = new FormsPlot { Dock = DockStyle.Fill };",
+            "protectedSnippet": "T:System.Windows.Forms.DockStyle",
+            "label": "T:System.Windows.Forms.DockStyle",
+            "line": 104,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "ee5c2715-12d8-487f-a7fa-dacf7306200a",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var fp = new FormsPlot { Dock = DockStyle.Fill };",
+              "protected": "F:System.Windows.Forms.DockStyle.Fill"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\Plotting\\SinglePlotForm.cs",
+            "snippet": "var fp = new FormsPlot { Dock = DockStyle.Fill };",
+            "protectedSnippet": "F:System.Windows.Forms.DockStyle.Fill",
+            "label": "F:System.Windows.Forms.DockStyle.Fill",
+            "line": 104,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "e154ec11-5878-4f63-97a3-2829412490f7",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var fp = new FormsPlot { Dock = DockStyle.Fill };",
+              "protected": "T:System.Windows.Forms.DockStyle"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\Plotting\\SinglePlotForm.cs",
+            "snippet": "var fp = new FormsPlot { Dock = DockStyle.Fill };",
+            "protectedSnippet": "T:System.Windows.Forms.DockStyle",
+            "label": "T:System.Windows.Forms.DockStyle",
+            "line": 104,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "253a134b-0a3d-4611-8986-697bf3a82605",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var fp = new FormsPlot { Dock = DockStyle.Fill };",
+              "protected": "P:System.Windows.Forms.Control.Dock"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\Plotting\\SinglePlotForm.cs",
+            "snippet": "var fp = new FormsPlot { Dock = DockStyle.Fill };",
+            "protectedSnippet": "P:System.Windows.Forms.Control.Dock",
+            "label": "P:System.Windows.Forms.Control.Dock",
+            "line": 104,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "5524fda5-17fa-47ca-90f6-7fbe4ddd2b1f",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Height = 600;",
+              "protected": "P:System.Windows.Forms.Control.Height"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\Plotting\\SinglePlotForm.cs",
+            "snippet": "Height = 600;",
+            "protectedSnippet": "P:System.Windows.Forms.Control.Height",
+            "label": "P:System.Windows.Forms.Control.Height",
+            "line": 103,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "e617803c-586e-40f7-9da9-d05077a754fe",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Width = 800;",
+              "protected": "P:System.Windows.Forms.Control.Width"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\Plotting\\SinglePlotForm.cs",
+            "snippet": "Width = 800;",
+            "protectedSnippet": "P:System.Windows.Forms.Control.Width",
+            "label": "P:System.Windows.Forms.Control.Width",
+            "line": 102,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "2bc2a154-34e5-44b3-87b7-5bc9316e2fa8",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Text = title;",
+              "protected": "P:System.Windows.Forms.Form.Text"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\Plotting\\SinglePlotForm.cs",
+            "snippet": "Text = title;",
+            "protectedSnippet": "P:System.Windows.Forms.Form.Text",
+            "label": "P:System.Windows.Forms.Form.Text",
+            "line": 101,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "7b65aadb-6201-432e-9c56-55addecfe44b",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "public SinglePlotForm(string title, double[] xData, double[] yData, double[] zData, Color[] colorScheme)\r\n        {\r\n            formsPlot = CreateFormsPlot(title);\r\n\r\n            formsPlot.Plot.Title(title);\r\n            formsPlot.Plot.XLabel(\u0022x\u0022);\r\n            formsPlot.Plot.YLabel(\u0022y\u0022);\r\n\r\n            double zMin = double.MaxValue, zMax = double.MinValue;\r\n            foreach (double z in zData) {\r\n                if (z \u003C zMin) zMin = z;\r\n                if (z \u003E zMax) zMax = z;\r\n            }\r\n            double range = (zMax - zMin == 0) ? 1 : zMax - zMin;\r\n            int nBins = colorScheme.Length;\r\n\r\n            var binX = new List\u003Cdouble\u003E[nBins];\r\n            var binY = new List\u003Cdouble\u003E[nBins];\r\n            for (int b = 0; b \u003C nBins; b\u002B\u002B) {\r\n                binX[b] = new List\u003Cdouble\u003E();\r\n                binY[b] = new List\u003Cdouble\u003E();\r\n            }\r\n\r\n            for (int i = 0; i \u003C zData.Length; i\u002B\u002B) {\r\n                double t = (zData[i] - zMin) / range;\r\n                int bin = Math.Min(nBins - 1, (int)(t * nBins));\r\n                binX[bin].Add(xData[i]);\r\n                binY[bin].Add(yData[i]);\r\n            }\r\n\r\n            for (int b = 0; b \u003C nBins; b\u002B\u002B) {\r\n                if (binX[b].Count == 0) continue;\r\n                var scatter = formsPlot.Plot.Add.Scatter(binX[b].ToArray(), binY[b].ToArray());\r\n                scatter.LineWidth = 0;\r\n                scatter.MarkerSize = 6;\r\n                scatter.Color = new ScottPlot.Color(colorScheme[b].R, colorScheme[b].G, colorScheme[b].B);\r\n                scatter.LegendText = string.Format(\u0022{0:0.###} to {1:0.###}\u0022, zMin \u002B b * range / nBins, zMin \u002B (b \u002B 1) * range / nBins);\r\n            }\r\n\r\n            formsPlot.Plot.Legend.IsVisible = true;\r\n            formsPlot.Refresh();\r\n        }",
+              "protected": "M:System.Windows.Forms.Form.#ctor"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\Plotting\\SinglePlotForm.cs",
+            "snippet": "public SinglePlotForm(string title, double[] xData, double[] yData, double[] zData, Color[] colorScheme)\r\n        {\r\n            formsPlot = CreateFormsPlot(title);\r\n\r\n            formsPlot.Plot.Title(title);\r\n            formsPlot.Plot.XLabel(\u0022x\u0022);\r\n            formsPlot.Plot.YLabel(\u0022y\u0022);\r\n\r\n            double zMin = double.MaxValue, zMax = double.MinValue;\r\n            foreach (double z in zData) {\r\n                if (z \u003C zMin) zMin = z;\r\n                if (z \u003E zMax) zMax = z;\r\n            }\r\n            double range = (zMax - zMin == 0) ? 1 : zMax - zMin;\r\n            int nBins = colorScheme.Length;\r\n\r\n            var binX = new List\u003Cdouble\u003E[nBins];\r\n            var binY = new List\u003Cdouble\u003E[nBins];\r\n            for (int b = 0; b \u003C nBins; b\u002B\u002B) {\r\n                binX[b] = new List\u003Cdouble\u003E();\r\n                binY[b] = new List\u003Cdouble\u003E();\r\n            }\r\n\r\n            for (int i = 0; i \u003C zData.Length; i\u002B\u002B) {\r\n                double t = (zData[i] - zMin) / range;\r\n                int bin = Math.Min(nBins - 1, (int)(t * nBins));\r\n                binX[bin].Add(xData[i]);\r\n                binY[bin].Add(yData[i]);\r\n            }\r\n\r\n            for (int b = 0; b \u003C nBins; b\u002B\u002B) {\r\n                if (binX[b].Count == 0) continue;\r\n                var scatter = formsPlot.Plot.Add.Scatter(binX[b].ToArray(), binY[b].ToArray());\r\n                scatter.LineWidth = 0;\r\n                scatter.MarkerSize = 6;\r\n                scatter.Color = new ScottPlot.Color(colorScheme[b].R, colorScheme[b].G, colorScheme[b].B);\r\n                scatter.LegendText = string.Format(\u0022{0:0.###} to {1:0.###}\u0022, zMin \u002B b * range / nBins, zMin \u002B (b \u002B 1) * range / nBins);\r\n            }\r\n\r\n            formsPlot.Plot.Legend.IsVisible = true;\r\n            formsPlot.Refresh();\r\n        }",
+            "protectedSnippet": "M:System.Windows.Forms.Form.#ctor",
+            "label": "M:System.Windows.Forms.Form.#ctor",
+            "line": 48,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "6ec9e8c6-2957-403b-bbcb-bc6f2b68d530",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "public SinglePlotForm(string title, string xLabel, string yLabel, List\u003Cstring\u003E lLabels, List\u003Cdouble[]\u003E lX, List\u003Cdouble[]\u003E lY,\r\n                               bool showLegend = true, bool showMarkers = true)\r\n        {\r\n            formsPlot = CreateFormsPlot(title);\r\n\r\n            formsPlot.Plot.Title(title);\r\n            formsPlot.Plot.XLabel(xLabel);\r\n            formsPlot.Plot.YLabel(yLabel);\r\n\r\n            for (int i = 0; i \u003C lX.Count; i\u002B\u002B) {\r\n                var scatter = formsPlot.Plot.Add.Scatter(lX[i], lY[i]);\r\n                scatter.LegendText = i \u003C lLabels.Count ? lLabels[i] : string.Empty;\r\n                if (!showMarkers) {\r\n                    scatter.MarkerSize = 0;\r\n                }\r\n            }\r\n\r\n            formsPlot.Plot.Legend.IsVisible = showLegend;\r\n            formsPlot.Refresh();\r\n        }",
+              "protected": "M:System.Windows.Forms.Form.#ctor"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\Plotting\\SinglePlotForm.cs",
+            "snippet": "public SinglePlotForm(string title, string xLabel, string yLabel, List\u003Cstring\u003E lLabels, List\u003Cdouble[]\u003E lX, List\u003Cdouble[]\u003E lY,\r\n                               bool showLegend = true, bool showMarkers = true)\r\n        {\r\n            formsPlot = CreateFormsPlot(title);\r\n\r\n            formsPlot.Plot.Title(title);\r\n            formsPlot.Plot.XLabel(xLabel);\r\n            formsPlot.Plot.YLabel(yLabel);\r\n\r\n            for (int i = 0; i \u003C lX.Count; i\u002B\u002B) {\r\n                var scatter = formsPlot.Plot.Add.Scatter(lX[i], lY[i]);\r\n                scatter.LegendText = i \u003C lLabels.Count ? lLabels[i] : string.Empty;\r\n                if (!showMarkers) {\r\n                    scatter.MarkerSize = 0;\r\n                }\r\n            }\r\n\r\n            formsPlot.Plot.Legend.IsVisible = showLegend;\r\n            formsPlot.Refresh();\r\n        }",
+            "protectedSnippet": "M:System.Windows.Forms.Form.#ctor",
+            "label": "M:System.Windows.Forms.Form.#ctor",
+            "line": 23,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "fd1ec206-3748-43b7-bf87-f14f5dc130f4",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "public SinglePlotForm(string title, double[] xData, double[] yData, double[] zData, Color[] colorScheme)\r\n        {\r\n            formsPlot = CreateFormsPlot(title);\r\n\r\n            formsPlot.Plot.Title(title);\r\n            formsPlot.Plot.XLabel(\u0022x\u0022);\r\n            formsPlot.Plot.YLabel(\u0022y\u0022);\r\n\r\n            double zMin = double.MaxValue, zMax = double.MinValue;\r\n            foreach (double z in zData) {\r\n                if (z \u003C zMin) zMin = z;\r\n                if (z \u003E zMax) zMax = z;\r\n            }\r\n            double range = (zMax - zMin == 0) ? 1 : zMax - zMin;\r\n            int nBins = colorScheme.Length;\r\n\r\n            var binX = new List\u003Cdouble\u003E[nBins];\r\n            var binY = new List\u003Cdouble\u003E[nBins];\r\n            for (int b = 0; b \u003C nBins; b\u002B\u002B) {\r\n                binX[b] = new List\u003Cdouble\u003E();\r\n                binY[b] = new List\u003Cdouble\u003E();\r\n            }\r\n\r\n            for (int i = 0; i \u003C zData.Length; i\u002B\u002B) {\r\n                double t = (zData[i] - zMin) / range;\r\n                int bin = Math.Min(nBins - 1, (int)(t * nBins));\r\n                binX[bin].Add(xData[i]);\r\n                binY[bin].Add(yData[i]);\r\n            }\r\n\r\n            for (int b = 0; b \u003C nBins; b\u002B\u002B) {\r\n                if (binX[b].Count == 0) continue;\r\n                var scatter = formsPlot.Plot.Add.Scatter(binX[b].ToArray(), binY[b].ToArray());\r\n                scatter.LineWidth = 0;\r\n                scatter.MarkerSize = 6;\r\n                scatter.Color = new ScottPlot.Color(colorScheme[b].R, colorScheme[b].G, colorScheme[b].B);\r\n                scatter.LegendText = string.Format(\u0022{0:0.###} to {1:0.###}\u0022, zMin \u002B b * range / nBins, zMin \u002B (b \u002B 1) * range / nBins);\r\n            }\r\n\r\n            formsPlot.Plot.Legend.IsVisible = true;\r\n            formsPlot.Refresh();\r\n        }",
+              "protected": "M:System.Windows.Forms.Form.#ctor"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\Plotting\\SinglePlotForm.cs",
+            "snippet": "public SinglePlotForm(string title, double[] xData, double[] yData, double[] zData, Color[] colorScheme)\r\n        {\r\n            formsPlot = CreateFormsPlot(title);\r\n\r\n            formsPlot.Plot.Title(title);\r\n            formsPlot.Plot.XLabel(\u0022x\u0022);\r\n            formsPlot.Plot.YLabel(\u0022y\u0022);\r\n\r\n            double zMin = double.MaxValue, zMax = double.MinValue;\r\n            foreach (double z in zData) {\r\n                if (z \u003C zMin) zMin = z;\r\n                if (z \u003E zMax) zMax = z;\r\n            }\r\n            double range = (zMax - zMin == 0) ? 1 : zMax - zMin;\r\n            int nBins = colorScheme.Length;\r\n\r\n            var binX = new List\u003Cdouble\u003E[nBins];\r\n            var binY = new List\u003Cdouble\u003E[nBins];\r\n            for (int b = 0; b \u003C nBins; b\u002B\u002B) {\r\n                binX[b] = new List\u003Cdouble\u003E();\r\n                binY[b] = new List\u003Cdouble\u003E();\r\n            }\r\n\r\n            for (int i = 0; i \u003C zData.Length; i\u002B\u002B) {\r\n                double t = (zData[i] - zMin) / range;\r\n                int bin = Math.Min(nBins - 1, (int)(t * nBins));\r\n                binX[bin].Add(xData[i]);\r\n                binY[bin].Add(yData[i]);\r\n            }\r\n\r\n            for (int b = 0; b \u003C nBins; b\u002B\u002B) {\r\n                if (binX[b].Count == 0) continue;\r\n                var scatter = formsPlot.Plot.Add.Scatter(binX[b].ToArray(), binY[b].ToArray());\r\n                scatter.LineWidth = 0;\r\n                scatter.MarkerSize = 6;\r\n                scatter.Color = new ScottPlot.Color(colorScheme[b].R, colorScheme[b].G, colorScheme[b].B);\r\n                scatter.LegendText = string.Format(\u0022{0:0.###} to {1:0.###}\u0022, zMin \u002B b * range / nBins, zMin \u002B (b \u002B 1) * range / nBins);\r\n            }\r\n\r\n            formsPlot.Plot.Legend.IsVisible = true;\r\n            formsPlot.Refresh();\r\n        }",
+            "protectedSnippet": "M:System.Windows.Forms.Form.#ctor",
+            "label": "M:System.Windows.Forms.Form.#ctor",
+            "line": 48,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "2600abc8-36fe-410b-88bb-d7b5e4617e8e",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "public SinglePlotForm(string title, string xLabel, string yLabel, List\u003Cstring\u003E lLabels, List\u003Cdouble[]\u003E lX, List\u003Cdouble[]\u003E lY,\r\n                               bool showLegend = true, bool showMarkers = true)\r\n        {\r\n            formsPlot = CreateFormsPlot(title);\r\n\r\n            formsPlot.Plot.Title(title);\r\n            formsPlot.Plot.XLabel(xLabel);\r\n            formsPlot.Plot.YLabel(yLabel);\r\n\r\n            for (int i = 0; i \u003C lX.Count; i\u002B\u002B) {\r\n                var scatter = formsPlot.Plot.Add.Scatter(lX[i], lY[i]);\r\n                scatter.LegendText = i \u003C lLabels.Count ? lLabels[i] : string.Empty;\r\n                if (!showMarkers) {\r\n                    scatter.MarkerSize = 0;\r\n                }\r\n            }\r\n\r\n            formsPlot.Plot.Legend.IsVisible = showLegend;\r\n            formsPlot.Refresh();\r\n        }",
+              "protected": "M:System.Windows.Forms.Form.#ctor"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\Plotting\\SinglePlotForm.cs",
+            "snippet": "public SinglePlotForm(string title, string xLabel, string yLabel, List\u003Cstring\u003E lLabels, List\u003Cdouble[]\u003E lX, List\u003Cdouble[]\u003E lY,\r\n                               bool showLegend = true, bool showMarkers = true)\r\n        {\r\n            formsPlot = CreateFormsPlot(title);\r\n\r\n            formsPlot.Plot.Title(title);\r\n            formsPlot.Plot.XLabel(xLabel);\r\n            formsPlot.Plot.YLabel(yLabel);\r\n\r\n            for (int i = 0; i \u003C lX.Count; i\u002B\u002B) {\r\n                var scatter = formsPlot.Plot.Add.Scatter(lX[i], lY[i]);\r\n                scatter.LegendText = i \u003C lLabels.Count ? lLabels[i] : string.Empty;\r\n                if (!showMarkers) {\r\n                    scatter.MarkerSize = 0;\r\n                }\r\n            }\r\n\r\n            formsPlot.Plot.Legend.IsVisible = showLegend;\r\n            formsPlot.Refresh();\r\n        }",
+            "protectedSnippet": "M:System.Windows.Forms.Form.#ctor",
+            "label": "M:System.Windows.Forms.Form.#ctor",
+            "line": 23,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "ee346f84-0522-4393-baa6-cd93ef75a3b5",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Form",
+              "protected": "T:System.Windows.Forms.Form"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\Plotting\\SinglePlotForm.cs",
+            "snippet": "Form",
+            "protectedSnippet": "T:System.Windows.Forms.Form",
+            "label": "T:System.Windows.Forms.Form",
+            "line": 16,
+            "column": 34
+          }
+        },
+        {
+          "incidentId": "c50c6ad4-8ddd-4377-8628-e5d69b51c0c8",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "myPlot.ShowDialog();",
+              "protected": "T:System.Windows.Forms.DialogResult"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\Homework\\HW10.cs",
+            "snippet": "myPlot.ShowDialog();",
+            "protectedSnippet": "T:System.Windows.Forms.DialogResult",
+            "label": "T:System.Windows.Forms.DialogResult",
+            "line": 328,
+            "column": 3
+          }
+        },
+        {
+          "incidentId": "71e2361f-dc00-40f1-9d14-14eb0fdc2158",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "myPlot.ShowDialog();",
+              "protected": "M:System.Windows.Forms.Form.ShowDialog"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\Homework\\HW10.cs",
+            "snippet": "myPlot.ShowDialog();",
+            "protectedSnippet": "M:System.Windows.Forms.Form.ShowDialog",
+            "label": "M:System.Windows.Forms.Form.ShowDialog",
+            "line": 328,
+            "column": 3
+          }
+        },
+        {
+          "incidentId": "e60996af-7aef-4fac-9381-64aaa938ffa5",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "myPlot.Activate();",
+              "protected": "M:System.Windows.Forms.Form.Activate"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\Homework\\HW10.cs",
+            "snippet": "myPlot.Activate();",
+            "protectedSnippet": "M:System.Windows.Forms.Form.Activate",
+            "label": "M:System.Windows.Forms.Form.Activate",
+            "line": 327,
+            "column": 3
+          }
+        },
+        {
+          "incidentId": "8749b424-424f-42ab-bf9e-5072cc796fea",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "myForm.ShowDialog();",
+              "protected": "T:System.Windows.Forms.DialogResult"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\Homework\\SetupLinear1DConsecutiveElementProblem.cs",
+            "snippet": "myForm.ShowDialog();",
+            "protectedSnippet": "T:System.Windows.Forms.DialogResult",
+            "label": "T:System.Windows.Forms.DialogResult",
+            "line": 141,
+            "column": 3
+          }
+        },
+        {
+          "incidentId": "f3dd39f3-ad30-4a03-b4bd-76a51fd2231f",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "myForm.ShowDialog();",
+              "protected": "M:System.Windows.Forms.Form.ShowDialog"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\Homework\\SetupLinear1DConsecutiveElementProblem.cs",
+            "snippet": "myForm.ShowDialog();",
+            "protectedSnippet": "M:System.Windows.Forms.Form.ShowDialog",
+            "label": "M:System.Windows.Forms.Form.ShowDialog",
+            "line": 141,
+            "column": 3
+          }
+        },
+        {
+          "incidentId": "22cdb1a1-a292-4ac9-9556-3731398c6154",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "myForm.Activate();",
+              "protected": "M:System.Windows.Forms.Form.Activate"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\Homework\\SetupLinear1DConsecutiveElementProblem.cs",
+            "snippet": "myForm.Activate();",
+            "protectedSnippet": "M:System.Windows.Forms.Form.Activate",
+            "label": "M:System.Windows.Forms.Form.Activate",
+            "line": 140,
+            "column": 3
+          }
+        },
+        {
+          "incidentId": "12a80dc5-aa7e-4f8e-a96c-c7fac3e252a5",
+          "ruleId": "Binding.0005",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Manual redirects exist but none covers MathNet.Numerics (referenced v5.0.0.0, package v5.0.0)",
+              "protected": "Manual redirects exist but none covers MathNet.Numerics (referenced v5.0.0.0, package v5.0.0)"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\App.config",
+            "snippet": "Manual redirects exist but none covers MathNet.Numerics (referenced v5.0.0.0, package v5.0.0)",
+            "protectedSnippet": "Manual redirects exist but none covers MathNet.Numerics (referenced v5.0.0.0, package v5.0.0)",
+            "properties": {
+              "AssemblyName": "MathNet.Numerics",
+              "AssemblyCurrentVersion": "5.0.0.0",
+              "AssemblyNewVersion": "5.0.0"
+            }
+          }
+        },
+        {
+          "incidentId": "b3966b70-5a98-4ffd-b849-6f4de6e5f911",
+          "ruleId": "Binding.0005",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Manual redirects exist but none covers OpenTK (referenced v3.1.0.0, package v3.1.0)",
+              "protected": "Manual redirects exist but none covers OpenTK (referenced v3.1.0.0, package v3.1.0)"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\App.config",
+            "snippet": "Manual redirects exist but none covers OpenTK (referenced v3.1.0.0, package v3.1.0)",
+            "protectedSnippet": "Manual redirects exist but none covers OpenTK (referenced v3.1.0.0, package v3.1.0)",
+            "properties": {
+              "AssemblyName": "OpenTK",
+              "AssemblyCurrentVersion": "3.1.0.0",
+              "AssemblyNewVersion": "3.1.0"
+            }
+          }
+        },
+        {
+          "incidentId": "fbaaaef9-4eef-47b3-94d7-2095623e2f49",
+          "ruleId": "Binding.0005",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Manual redirects exist but none covers OpenTK.GLControl (referenced v3.1.0.0, package v3.1.0)",
+              "protected": "Manual redirects exist but none covers OpenTK.GLControl (referenced v3.1.0.0, package v3.1.0)"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\App.config",
+            "snippet": "Manual redirects exist but none covers OpenTK.GLControl (referenced v3.1.0.0, package v3.1.0)",
+            "protectedSnippet": "Manual redirects exist but none covers OpenTK.GLControl (referenced v3.1.0.0, package v3.1.0)",
+            "properties": {
+              "AssemblyName": "OpenTK.GLControl",
+              "AssemblyCurrentVersion": "3.1.0.0",
+              "AssemblyNewVersion": "3.1.0"
+            }
+          }
+        },
+        {
+          "incidentId": "9390e8fe-fd2e-4272-bb80-576d5cb276e9",
+          "ruleId": "Binding.0005",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Manual redirects exist but none covers System.Buffers (referenced v4.0.3.0, package v4.5.1)",
+              "protected": "Manual redirects exist but none covers System.Buffers (referenced v4.0.3.0, package v4.5.1)"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\App.config",
+            "snippet": "Manual redirects exist but none covers System.Buffers (referenced v4.0.3.0, package v4.5.1)",
+            "protectedSnippet": "Manual redirects exist but none covers System.Buffers (referenced v4.0.3.0, package v4.5.1)",
+            "properties": {
+              "AssemblyName": "System.Buffers",
+              "AssemblyCurrentVersion": "4.0.3.0",
+              "AssemblyNewVersion": "4.5.1"
+            }
+          }
+        },
+        {
+          "incidentId": "ea87c6a0-efd5-4ed7-a3fe-8b79c82adeab",
+          "ruleId": "Binding.0005",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Manual redirects exist but none covers System.Numerics.Vectors (referenced v4.1.4.0, package v4.5.0)",
+              "protected": "Manual redirects exist but none covers System.Numerics.Vectors (referenced v4.1.4.0, package v4.5.0)"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\App.config",
+            "snippet": "Manual redirects exist but none covers System.Numerics.Vectors (referenced v4.1.4.0, package v4.5.0)",
+            "protectedSnippet": "Manual redirects exist but none covers System.Numerics.Vectors (referenced v4.1.4.0, package v4.5.0)",
+            "properties": {
+              "AssemblyName": "System.Numerics.Vectors",
+              "AssemblyCurrentVersion": "4.1.4.0",
+              "AssemblyNewVersion": "4.5.0"
+            }
+          }
+        },
+        {
+          "incidentId": "3c3af86a-98d8-4c6c-ad49-29d848697f95",
+          "ruleId": "Binding.0005",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Manual redirects exist but none covers System.Runtime.CompilerServices.Unsafe (referenced v4.0.4.1, package v4.5.3)",
+              "protected": "Manual redirects exist but none covers System.Runtime.CompilerServices.Unsafe (referenced v4.0.4.1, package v4.5.3)"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\App.config",
+            "snippet": "Manual redirects exist but none covers System.Runtime.CompilerServices.Unsafe (referenced v4.0.4.1, package v4.5.3)",
+            "protectedSnippet": "Manual redirects exist but none covers System.Runtime.CompilerServices.Unsafe (referenced v4.0.4.1, package v4.5.3)",
+            "properties": {
+              "AssemblyName": "System.Runtime.CompilerServices.Unsafe",
+              "AssemblyCurrentVersion": "4.0.4.1",
+              "AssemblyNewVersion": "4.5.3"
+            }
+          }
+        },
+        {
+          "incidentId": "91788b0c-e530-4ac0-ade1-244a077fbb5a",
+          "ruleId": "Binding.0005",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Manual redirects exist but none covers System.Memory (referenced v4.0.1.2, package v4.5.5)",
+              "protected": "Manual redirects exist but none covers System.Memory (referenced v4.0.1.2, package v4.5.5)"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\App.config",
+            "snippet": "Manual redirects exist but none covers System.Memory (referenced v4.0.1.2, package v4.5.5)",
+            "protectedSnippet": "Manual redirects exist but none covers System.Memory (referenced v4.0.1.2, package v4.5.5)",
+            "properties": {
+              "AssemblyName": "System.Memory",
+              "AssemblyCurrentVersion": "4.0.1.2",
+              "AssemblyNewVersion": "4.5.5"
+            }
+          }
+        },
+        {
+          "incidentId": "4a6d216c-30e0-4d13-b674-2e565b941968",
+          "ruleId": "Binding.0005",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Manual redirects exist but none covers HarfBuzzSharp (referenced v1.0.0.0, package v8.3.1.1)",
+              "protected": "Manual redirects exist but none covers HarfBuzzSharp (referenced v1.0.0.0, package v8.3.1.1)"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\App.config",
+            "snippet": "Manual redirects exist but none covers HarfBuzzSharp (referenced v1.0.0.0, package v8.3.1.1)",
+            "protectedSnippet": "Manual redirects exist but none covers HarfBuzzSharp (referenced v1.0.0.0, package v8.3.1.1)",
+            "properties": {
+              "AssemblyName": "HarfBuzzSharp",
+              "AssemblyCurrentVersion": "1.0.0.0",
+              "AssemblyNewVersion": "8.3.1.1"
+            }
+          }
+        },
+        {
+          "incidentId": "70d99a0d-1e2e-4d36-a9a3-6773699f6944",
+          "ruleId": "Binding.0005",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Manual redirects exist but none covers SkiaSharp (referenced v3.119.0.0, package v3.119.0)",
+              "protected": "Manual redirects exist but none covers SkiaSharp (referenced v3.119.0.0, package v3.119.0)"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\App.config",
+            "snippet": "Manual redirects exist but none covers SkiaSharp (referenced v3.119.0.0, package v3.119.0)",
+            "protectedSnippet": "Manual redirects exist but none covers SkiaSharp (referenced v3.119.0.0, package v3.119.0)",
+            "properties": {
+              "AssemblyName": "SkiaSharp",
+              "AssemblyCurrentVersion": "3.119.0.0",
+              "AssemblyNewVersion": "3.119.0"
+            }
+          }
+        },
+        {
+          "incidentId": "35fa1562-1745-4a33-b9f8-cb6eb1c73ffc",
+          "ruleId": "Binding.0005",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Manual redirects exist but none covers SkiaSharp.HarfBuzz (referenced v3.119.0.0, package v3.119.0)",
+              "protected": "Manual redirects exist but none covers SkiaSharp.HarfBuzz (referenced v3.119.0.0, package v3.119.0)"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\App.config",
+            "snippet": "Manual redirects exist but none covers SkiaSharp.HarfBuzz (referenced v3.119.0.0, package v3.119.0)",
+            "protectedSnippet": "Manual redirects exist but none covers SkiaSharp.HarfBuzz (referenced v3.119.0.0, package v3.119.0)",
+            "properties": {
+              "AssemblyName": "SkiaSharp.HarfBuzz",
+              "AssemblyCurrentVersion": "3.119.0.0",
+              "AssemblyNewVersion": "3.119.0"
+            }
+          }
+        },
+        {
+          "incidentId": "7448f128-368c-4f3c-8a07-4f8541d03d3d",
+          "ruleId": "Binding.0005",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Manual redirects exist but none covers SkiaSharp.Views.Desktop.Common (referenced v3.119.0.0, package v3.119.0)",
+              "protected": "Manual redirects exist but none covers SkiaSharp.Views.Desktop.Common (referenced v3.119.0.0, package v3.119.0)"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\App.config",
+            "snippet": "Manual redirects exist but none covers SkiaSharp.Views.Desktop.Common (referenced v3.119.0.0, package v3.119.0)",
+            "protectedSnippet": "Manual redirects exist but none covers SkiaSharp.Views.Desktop.Common (referenced v3.119.0.0, package v3.119.0)",
+            "properties": {
+              "AssemblyName": "SkiaSharp.Views.Desktop.Common",
+              "AssemblyCurrentVersion": "3.119.0.0",
+              "AssemblyNewVersion": "3.119.0"
+            }
+          }
+        },
+        {
+          "incidentId": "7b7cffa4-36ad-4cd0-9aef-303bd4f1e714",
+          "ruleId": "Binding.0005",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Manual redirects exist but none covers SkiaSharp.Views.WindowsForms (referenced v3.119.0.0, package v3.119.0)",
+              "protected": "Manual redirects exist but none covers SkiaSharp.Views.WindowsForms (referenced v3.119.0.0, package v3.119.0)"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\App.config",
+            "snippet": "Manual redirects exist but none covers SkiaSharp.Views.WindowsForms (referenced v3.119.0.0, package v3.119.0)",
+            "protectedSnippet": "Manual redirects exist but none covers SkiaSharp.Views.WindowsForms (referenced v3.119.0.0, package v3.119.0)",
+            "properties": {
+              "AssemblyName": "SkiaSharp.Views.WindowsForms",
+              "AssemblyCurrentVersion": "3.119.0.0",
+              "AssemblyNewVersion": "3.119.0"
+            }
+          }
+        },
+        {
+          "incidentId": "59c98f22-8d4f-4f6e-b1ff-ee51eb826062",
+          "ruleId": "Binding.0005",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Manual redirects exist but none covers ScottPlot (referenced v5.1.59.0, package v5.1.59)",
+              "protected": "Manual redirects exist but none covers ScottPlot (referenced v5.1.59.0, package v5.1.59)"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\App.config",
+            "snippet": "Manual redirects exist but none covers ScottPlot (referenced v5.1.59.0, package v5.1.59)",
+            "protectedSnippet": "Manual redirects exist but none covers ScottPlot (referenced v5.1.59.0, package v5.1.59)",
+            "properties": {
+              "AssemblyName": "ScottPlot",
+              "AssemblyCurrentVersion": "5.1.59.0",
+              "AssemblyNewVersion": "5.1.59"
+            }
+          }
+        },
+        {
+          "incidentId": "c6a49cba-4954-4edc-9318-038940a01ae5",
+          "ruleId": "Binding.0005",
+          "projectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Manual redirects exist but none covers ScottPlot.WinForms (referenced v5.1.59.0, package v5.1.59)",
+              "protected": "Manual redirects exist but none covers ScottPlot.WinForms (referenced v5.1.59.0, package v5.1.59)"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple\\App.config",
+            "snippet": "Manual redirects exist but none covers ScottPlot.WinForms (referenced v5.1.59.0, package v5.1.59)",
+            "protectedSnippet": "Manual redirects exist but none covers ScottPlot.WinForms (referenced v5.1.59.0, package v5.1.59)",
+            "properties": {
+              "AssemblyName": "ScottPlot.WinForms",
+              "AssemblyCurrentVersion": "5.1.59.0",
+              "AssemblyNewVersion": "5.1.59"
+            }
+          }
+        }
+      ],
+      "features": [
+        {
+          "featureId": "WinForms",
+          "incidents": [
+            "22cdb1a1-a292-4ac9-9556-3731398c6154",
+            "f3dd39f3-ad30-4a03-b4bd-76a51fd2231f",
+            "8749b424-424f-42ab-bf9e-5072cc796fea",
+            "e60996af-7aef-4fac-9381-64aaa938ffa5",
+            "71e2361f-dc00-40f1-9d14-14eb0fdc2158",
+            "c50c6ad4-8ddd-4377-8628-e5d69b51c0c8",
+            "ee346f84-0522-4393-baa6-cd93ef75a3b5",
+            "2600abc8-36fe-410b-88bb-d7b5e4617e8e",
+            "fd1ec206-3748-43b7-bf87-f14f5dc130f4",
+            "6ec9e8c6-2957-403b-bbcb-bc6f2b68d530",
+            "7b65aadb-6201-432e-9c56-55addecfe44b",
+            "2bc2a154-34e5-44b3-87b7-5bc9316e2fa8",
+            "e617803c-586e-40f7-9da9-d05077a754fe",
+            "5524fda5-17fa-47ca-90f6-7fbe4ddd2b1f",
+            "253a134b-0a3d-4611-8986-697bf3a82605",
+            "e154ec11-5878-4f63-97a3-2829412490f7",
+            "ee5c2715-12d8-487f-a7fa-dacf7306200a",
+            "32202c82-14f3-4ee5-960a-055c09a0e575",
+            "649d5d53-bf21-41e6-8644-c446c5a46e49",
+            "89155ab2-f9dc-45a7-b206-fb74257b6813",
+            "6f0edf9a-47bd-449f-8aa8-1ffd9ed75137",
+            "cfe30d88-6c55-4c6b-83f9-64d096768905"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "FiniteElementSimple.Tests\\FiniteElementSimple.Tests.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "FiniteElementSimple.Tests",
+        "projectKind": "ClassLibrary",
+        "frameworks": [
+          "net48"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 3,
+        "linesTotal": 357,
+        "linesOfCode": 357,
+        "totalApiScanned": 302,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "46f587cd-4535-4e28-94eb-c8339a6ce3cc",
+          "ruleId": "Project.0002",
+          "projectPath": "FiniteElementSimple.Tests\\FiniteElementSimple.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: net48\nRecommended target framework: net10.0",
+              "protected": "Current target framework: net48\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "FiniteElementSimple.Tests\\FiniteElementSimple.Tests.csproj",
+            "snippet": "Current target framework: net48\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: net48\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net48",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    }
+  ],
+  "rules": {
+    "NuGet.0001": {
+      "id": "NuGet.0001",
+      "isFeature": false,
+      "description": "NuGet package is incompatible with selected target framework.\n\nPackage needs to be upgraded to a version supporting selected project target framework. If there no new package versions supporting new target framework, different package needs to be used and all code needs to be upgraded to new API.",
+      "label": "NuGet package is incompatible",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262529",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0003": {
+      "id": "NuGet.0003",
+      "isFeature": false,
+      "description": "NuGet package functionality is included with framework reference.\n\nPackage needs to be removed.",
+      "label": "NuGet package functionality is included with framework reference",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262609",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0002": {
+      "id": "NuGet.0002",
+      "isFeature": false,
+      "description": "NuGet package upgrade is recommended for selected target framework.\n\nStandard .NET packages are recommended to have versions matching version of .NET that project targets.\n\nSome other packages also are known to work better for selected target frameworks.",
+      "label": "NuGet package upgrade is recommended",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262530",
+          "isCustom": false
+        }
+      ]
+    },
+    "Project.0001": {
+      "id": "Project.0001",
+      "isFeature": false,
+      "description": "Project file needs to be converted to SDK-style. Modern .NET framework projects require a change in the project file format and use SDK corresponding to project flavor and functionality.",
+      "label": "Project file needs to be converted to SDK-style",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "Project.0002": {
+      "id": "Project.0002",
+      "isFeature": false,
+      "description": "Project\u0027s target framework(s) needs to be changed to the new target framework that you selected for this upgrade.\n\nDuring upgrade target framework will be adjusted to corresponding platform when applicable. In some cases project would result in multiple target frameworks after the upgrade if it was using features that now have their own platforms in modern .NET frameworks (windows, iOS, Android etc).",
+      "label": "Project\u0027s target framework(s) needs to be changed",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "Api.0001": {
+      "id": "Api.0001",
+      "isFeature": false,
+      "description": "API is binary incompatible for selected .NET version: affects existing binaries, often requiring recompilation, because the API has changed in a way that prevents older binaries from loading or executing.",
+      "label": "Binary incompatible for selected .NET version",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Breaking changes in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262679",
+          "isCustom": false
+        }
+      ]
+    },
+    "WinForms": {
+      "id": "WinForms",
+      "isFeature": false,
+      "description": "Windows Forms APIs for building Windows desktop applications with traditional Forms-based UI that are available in .NET on Windows. Enable Windows Desktop support: Option 1 (Recommended): Target net9.0-windows; Option 2: Add \u003CUseWindowsDesktop\u003Etrue\u003C/UseWindowsDesktop\u003E; Option 3 (Legacy): Use Microsoft.NET.Sdk.WindowsDesktop SDK.",
+      "label": "Windows Forms",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Windows Forms on .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2341906",
+          "isCustom": false
+        }
+      ]
+    },
+    "Binding.0005": {
+      "id": "Binding.0005",
+      "isFeature": false,
+      "description": "Manual binding redirects exist but are missing a redirect for a referenced assembly with a version mismatch. This can cause MissingMethodException or FileLoadException when the missing redirect allows the app to start but fails when a specific code path is hit.",
+      "label": "Missing binding redirect for referenced assembly",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Assembly binding redirection",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262689",
+          "isCustom": false
+        }
+      ]
+    }
+  }
+}

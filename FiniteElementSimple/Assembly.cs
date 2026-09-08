@@ -10,7 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using FiniteElementSimple.Elements;
-using ZedGraph;
+using FiniteElementSimple.Plotting;
 
 namespace FiniteElementSimple
 {
@@ -85,15 +85,7 @@ namespace FiniteElementSimple
 			}
 
 			
-			SinglePlotZedGraph.SinglePlotForm myPlot = new SinglePlotZedGraph.SinglePlotForm("Mesh", "x", "y", lLabels, lX, lY);
-			myPlot.myPane.Legend.IsVisible = false;
-
-            for (int i = 0; i < myPlot.myPane.CurveList.Count; i++)
-            {
-				CurveItem ci = myPlot.myPane.CurveList[i];
-				LineItem li = (LineItem)ci;
-				li.Symbol.IsVisible = false;
-			}
+			SinglePlotForm myPlot = new SinglePlotForm("Mesh", "x", "y", lLabels, lX, lY, showLegend: false, showMarkers: false);
 			myPlot.Plot();
 			//myPlot.Activate();
 			//myPlot.ShowDialog();

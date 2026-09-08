@@ -1,0 +1,1455 @@
+{
+  "packageGovernance": {
+    "totalDistinctPackages": 26,
+    "totalVersionDriftInstances": 0,
+    "targetFramework": "net10.0",
+    "packages": [
+      {
+        "name": "HarfBuzzSharp",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "8.3.1.1",
+            "projects": [
+              "FiniteElementSimple"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "HarfBuzzSharp.NativeAssets.Linux",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "8.3.1.1",
+            "projects": [
+              "FiniteElementSimple"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "HarfBuzzSharp.NativeAssets.macOS",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "8.3.1.1",
+            "projects": [
+              "FiniteElementSimple"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "HarfBuzzSharp.NativeAssets.Win32",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "8.3.1.1",
+            "projects": [
+              "FiniteElementSimple"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "MathNet.Numerics",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "5.0.0",
+            "projects": [
+              "FiniteElementSimple"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "17.11.1",
+            "projects": [
+              "FiniteElementSimple.Tests"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "NUnit",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "4.6.1",
+            "projects": [
+              "FiniteElementSimple.Tests"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "NUnit.Analyzers",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "4.4.0",
+            "projects": [
+              "FiniteElementSimple.Tests"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "4.6.0",
+            "projects": [
+              "FiniteElementSimple.Tests"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "OpenTK",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "4.9.4",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "3.1.0",
+            "projects": [
+              "FiniteElementSimple"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "4.9.4"
+        }
+      },
+      {
+        "name": "OpenTK.GLControl",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "4.0.2",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "3.1.0",
+            "projects": [
+              "FiniteElementSimple"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "4.0.2"
+        }
+      },
+      {
+        "name": "ScottPlot",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "5.1.59",
+            "projects": [
+              "FiniteElementSimple"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "ScottPlot.WinForms",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "4.1.73",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "5.1.59",
+            "projects": [
+              "FiniteElementSimple"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "4.1.73"
+        }
+      },
+      {
+        "name": "SkiaSharp",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "3.119.0",
+            "projects": [
+              "FiniteElementSimple"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "SkiaSharp.HarfBuzz",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "3.119.0",
+            "projects": [
+              "FiniteElementSimple"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "SkiaSharp.NativeAssets.Linux.NoDependencies",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "3.119.0",
+            "projects": [
+              "FiniteElementSimple"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "SkiaSharp.NativeAssets.macOS",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "3.119.0",
+            "projects": [
+              "FiniteElementSimple"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "SkiaSharp.NativeAssets.Win32",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "3.119.0",
+            "projects": [
+              "FiniteElementSimple"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "SkiaSharp.Views.Desktop.Common",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "3.119.0",
+            "projects": [
+              "FiniteElementSimple"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "SkiaSharp.Views.WindowsForms",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "2.88.9",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "3.119.0",
+            "projects": [
+              "FiniteElementSimple"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "2.88.9"
+        }
+      },
+      {
+        "name": "StapletonMathPackage",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.3.4",
+            "projects": [
+              "FiniteElementSimple",
+              "FiniteElementSimple.Tests"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "System.Buffers",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "NuGet package functionality is included with framework reference",
+        "versions": [
+          {
+            "version": "4.5.1",
+            "projects": [
+              "FiniteElementSimple"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "System.Memory",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "NuGet package functionality is included with framework reference",
+        "versions": [
+          {
+            "version": "4.5.5",
+            "projects": [
+              "FiniteElementSimple"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "System.Numerics.Vectors",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "NuGet package functionality is included with framework reference",
+        "versions": [
+          {
+            "version": "4.5.0",
+            "projects": [
+              "FiniteElementSimple"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "System.Runtime.CompilerServices.Unsafe",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.1.2",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "4.5.3",
+            "projects": [
+              "FiniteElementSimple"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "6.1.2"
+        }
+      },
+      {
+        "name": "System.ValueTuple",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "NuGet package functionality is included with framework reference",
+        "versions": [
+          {
+            "version": "4.6.1",
+            "projects": [
+              "FiniteElementSimple"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "FiniteElementSimple",
+      "path": "FiniteElementSimple\\FiniteElementSimple.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net48"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "HarfBuzzSharp",
+            "version": "8.3.1.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "HarfBuzzSharp.NativeAssets.Linux",
+            "version": "8.3.1.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "HarfBuzzSharp.NativeAssets.macOS",
+            "version": "8.3.1.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "HarfBuzzSharp.NativeAssets.Win32",
+            "version": "8.3.1.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "MathNet.Numerics",
+            "version": "5.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "OpenTK",
+            "version": "3.1.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "4.9.4",
+            "upgrade": {
+              "newVersion": "4.9.4"
+            }
+          },
+          {
+            "name": "OpenTK.GLControl",
+            "version": "3.1.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "4.0.2",
+            "upgrade": {
+              "newVersion": "4.0.2"
+            }
+          },
+          {
+            "name": "ScottPlot",
+            "version": "5.1.59",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "ScottPlot.WinForms",
+            "version": "5.1.59",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "4.1.73",
+            "upgrade": {
+              "newVersion": "4.1.73"
+            }
+          },
+          {
+            "name": "SkiaSharp",
+            "version": "3.119.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "SkiaSharp.HarfBuzz",
+            "version": "3.119.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "SkiaSharp.NativeAssets.Linux.NoDependencies",
+            "version": "3.119.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "SkiaSharp.NativeAssets.macOS",
+            "version": "3.119.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "SkiaSharp.NativeAssets.Win32",
+            "version": "3.119.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "SkiaSharp.Views.Desktop.Common",
+            "version": "3.119.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "SkiaSharp.Views.WindowsForms",
+            "version": "3.119.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "2.88.9",
+            "upgrade": {
+              "newVersion": "2.88.9"
+            }
+          },
+          {
+            "name": "StapletonMathPackage",
+            "version": "1.3.4",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "System.Buffers",
+            "version": "4.5.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\packages.config"
+              }
+            ],
+            "description": "NuGet package functionality is included with framework reference",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "System.Memory",
+            "version": "4.5.5",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\packages.config"
+              }
+            ],
+            "description": "NuGet package functionality is included with framework reference",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "System.Numerics.Vectors",
+            "version": "4.5.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\packages.config"
+              }
+            ],
+            "description": "NuGet package functionality is included with framework reference",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\packages.config"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "6.1.2",
+            "upgrade": {
+              "newVersion": "6.1.2"
+            }
+          },
+          {
+            "name": "System.ValueTuple",
+            "version": "4.6.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\packages.config"
+              }
+            ],
+            "description": "NuGet package functionality is included with framework reference",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "Microsoft.CSharp",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\Microsoft.CSharp.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Core.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Data.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data.DataSetExtensions",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Data.DataSetExtensions.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Drawing",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Drawing.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Windows.Forms",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Windows.Forms.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Xml.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml.Linq",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Xml.Linq.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "MathNet.Numerics",
+            "version": "5.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "packages\\MathNet.Numerics.5.0.0\\lib\\net48\\MathNet.Numerics.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "RandomMath",
+            "version": "1.3.4.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "packages\\StapletonMathPackage.1.3.4\\lib\\netstandard2.0\\RandomMath.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "ZedGraph",
+            "version": "5.2.1.437",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "packages\\ZedGraph.5.2.1\\lib\\net35-Client\\ZedGraph.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "SinglePlotZedGraph",
+            "version": "1.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "packages\\SinglePlotZedGraph.1.0.0\\lib\\net40\\SinglePlotZedGraph.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "OpenTK",
+            "version": "3.1.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "packages\\OpenTK.3.1.0\\lib\\net20\\OpenTK.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "OpenTK.GLControl",
+            "version": "3.1.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "packages\\OpenTK.GLControl.3.1.0\\lib\\net20\\OpenTK.GLControl.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Buffers",
+            "version": "4.0.3.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "packages\\System.Buffers.4.5.1\\lib\\net461\\System.Buffers.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Numerics.Vectors",
+            "version": "4.1.4.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "packages\\System.Numerics.Vectors.4.5.0\\lib\\net46\\System.Numerics.Vectors.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Numerics",
+            "version": "4.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Numerics.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.0.4.1",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "packages\\System.Runtime.CompilerServices.Unsafe.4.5.3\\lib\\net461\\System.Runtime.CompilerServices.Unsafe.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Memory",
+            "version": "4.0.1.2",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "packages\\System.Memory.4.5.5\\lib\\net461\\System.Memory.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "HarfBuzzSharp",
+            "version": "1.0.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "packages\\HarfBuzzSharp.8.3.1.1\\lib\\net462\\HarfBuzzSharp.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "SkiaSharp",
+            "version": "3.119.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "packages\\SkiaSharp.3.119.0\\lib\\net462\\SkiaSharp.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "SkiaSharp.HarfBuzz",
+            "version": "3.119.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "packages\\SkiaSharp.HarfBuzz.3.119.0\\lib\\net462\\SkiaSharp.HarfBuzz.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "SkiaSharp.Views.Desktop.Common",
+            "version": "3.119.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "packages\\SkiaSharp.Views.Desktop.Common.3.119.0\\lib\\net462\\SkiaSharp.Views.Desktop.Common.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "SkiaSharp.Views.WindowsForms",
+            "version": "3.119.0.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "packages\\SkiaSharp.Views.WindowsForms.3.119.0\\lib\\net462\\SkiaSharp.Views.WindowsForms.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "ScottPlot",
+            "version": "5.1.59.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "packages\\ScottPlot.5.1.59\\lib\\net462\\ScottPlot.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "ScottPlot.WinForms",
+            "version": "5.1.59.0",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple\\FiniteElementSimple.csproj"
+              }
+            ],
+            "physicalPath": "packages\\ScottPlot.WinForms.5.1.59\\lib\\net462\\ScottPlot.WinForms.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "mscorlib",
+            "version": "4.0.0.0",
+            "isTransitive": true,
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\mscorlib.dll",
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [],
+        "frameworkReferences": []
+      }
+    },
+    {
+      "name": "FiniteElementSimple.Tests",
+      "path": "FiniteElementSimple.Tests\\FiniteElementSimple.Tests.csproj",
+      "isSdk": true,
+      "currentFrameworks": [
+        "net48"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "Microsoft.NET.Test.Sdk",
+            "version": "17.11.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple.Tests\\FiniteElementSimple.Tests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "NUnit",
+            "version": "4.6.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple.Tests\\FiniteElementSimple.Tests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "NUnit3TestAdapter",
+            "version": "4.6.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple.Tests\\FiniteElementSimple.Tests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "NUnit.Analyzers",
+            "version": "4.4.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple.Tests\\FiniteElementSimple.Tests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "StapletonMathPackage",
+            "version": "1.3.4",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple.Tests\\FiniteElementSimple.Tests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "System.Drawing",
+            "version": "4.0.0.0",
+            "isTransitive": true,
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Drawing.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml.Linq",
+            "version": "4.0.0.0",
+            "isTransitive": true,
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Xml.Linq.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Numerics",
+            "version": "4.0.0.0",
+            "isTransitive": true,
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Numerics.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "4.0.0.0",
+            "isTransitive": true,
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Data.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Runtime.Serialization",
+            "version": "4.0.0.0",
+            "isTransitive": true,
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Runtime.Serialization.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "4.0.0.0",
+            "isTransitive": true,
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Xml.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "4.0.0.0",
+            "isTransitive": true,
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.Core.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "4.0.0.0",
+            "isTransitive": true,
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.IO.Compression.FileSystem",
+            "version": "4.0.0.0",
+            "isTransitive": true,
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\System.IO.Compression.FileSystem.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "nunit.framework.legacy",
+            "version": "4.6.0.0",
+            "isTransitive": true,
+            "physicalPath": "C:\\Users\\Scott_Stapleton\\.nuget\\packages\\nunit\\4.6.1\\lib\\net462\\nunit.framework.legacy.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Threading.Tasks.Extensions",
+            "version": "4.2.0.1",
+            "isTransitive": true,
+            "physicalPath": "C:\\Users\\Scott_Stapleton\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\lib\\net461\\System.Threading.Tasks.Extensions.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "nunit.framework",
+            "version": "4.6.0.0",
+            "isTransitive": true,
+            "physicalPath": "C:\\Users\\Scott_Stapleton\\.nuget\\packages\\nunit\\4.6.1\\lib\\net462\\nunit.framework.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.VisualStudio.CodeCoverage.Shim",
+            "version": "15.0.0.0",
+            "isTransitive": true,
+            "physicalPath": "C:\\Users\\Scott_Stapleton\\.nuget\\packages\\microsoft.codecoverage\\17.11.1\\lib\\net462\\Microsoft.VisualStudio.CodeCoverage.Shim.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "MathNet.Numerics",
+            "version": "5.0.0.0",
+            "isTransitive": true,
+            "physicalPath": "C:\\Users\\Scott_Stapleton\\.nuget\\packages\\mathnet.numerics\\5.0.0\\lib\\net48\\MathNet.Numerics.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "RandomMath",
+            "version": "1.3.4.0",
+            "isTransitive": true,
+            "physicalPath": "C:\\Users\\Scott_Stapleton\\.nuget\\packages\\stapletonmathpackage\\1.3.4\\lib\\netstandard2.0\\RandomMath.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.ValueTuple",
+            "version": "4.0.2.0",
+            "isTransitive": true,
+            "physicalPath": "C:\\Users\\Scott_Stapleton\\.nuget\\packages\\system.valuetuple\\4.4.0\\ref\\net47\\System.ValueTuple.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.0.4.1",
+            "isTransitive": true,
+            "physicalPath": "C:\\Users\\Scott_Stapleton\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\ref\\net461\\System.Runtime.CompilerServices.Unsafe.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "mscorlib",
+            "version": "4.0.0.0",
+            "isTransitive": true,
+            "physicalPath": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.8\\mscorlib.dll",
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [
+          {
+            "name": "FiniteElementSimple",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "FiniteElementSimple.Tests\\FiniteElementSimple.Tests.csproj"
+              }
+            ],
+            "referencedProjectPath": "FiniteElementSimple\\FiniteElementSimple.csproj",
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      }
+    }
+  ]
+}

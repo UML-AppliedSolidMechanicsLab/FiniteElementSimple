@@ -12,6 +12,7 @@ namespace FiniteElementSimple
 {
 	class Program
 	{
+		[STAThread]
 		public static void Main(string[] args)
 		{
 			//Homework.HW10.RunHW10();

@@ -11,6 +11,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Drawing;
 using FiniteElementSimple.Elements;
+using FiniteElementSimple.BoundaryConditions;
+using FiniteElementSimple.Materials;
 
 namespace FiniteElementSimple.Homework
 {
@@ -140,7 +142,6 @@ namespace FiniteElementSimple.Homework
 
 			double[,] B = myElement.B(0.1, -0.1, 0.0);
 
-			bool stophere = true;
 			Assembly assembly = new Assembly(myAssembly, new List<BC>(), new List<BC>(), 2);
 
 			CreateContourPlot(assembly, 50, 50, 3, 0, false);
@@ -321,8 +322,8 @@ namespace FiniteElementSimple.Homework
 			//Then I make a color scheme and create the plot.  This part will be different for you: I was calling a function I 
 			//Had already written
 			Color [] colorScheme = new Color[]{Color.Blue, Color.Aqua, Color.LimeGreen, Color.Yellow, Color.Red};
-            SinglePlotZedGraph.SinglePlotForm myPlot = new SinglePlotZedGraph.SinglePlotForm(zTitle, lXData.ToArray(), lYData.ToArray(), 
-			                                                                 lZData.ToArray(), colorScheme);
+			FiniteElementSimple.Plotting.SinglePlotForm myPlot = new FiniteElementSimple.Plotting.SinglePlotForm(zTitle, lXData.ToArray(), lYData.ToArray(), 
+																			 lZData.ToArray(), colorScheme);
 			myPlot.Activate();
 			myPlot.ShowDialog();
 		}

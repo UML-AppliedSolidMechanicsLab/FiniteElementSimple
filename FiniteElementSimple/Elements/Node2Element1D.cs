@@ -7,6 +7,7 @@
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
+using FiniteElementSimple.Materials;
 
 namespace FiniteElementSimple.Elements
 {
@@ -47,13 +48,13 @@ namespace FiniteElementSimple.Elements
 		}
 		
 		public override double Det_Of_J(double xi, double eta, double zeta){
-			
-			return (length / 2.0) * (area / 4.0);
+
+			return length / 2.0;
 		}
-		
+
 		public override double [,] J(double xi, double eta, double zeta){
-			
-			return new double[,]{{(length / 2.0) * (area / 4.0)}};
+
+			return new double[,]{{length / 2.0}};
 		}
 		
 	}

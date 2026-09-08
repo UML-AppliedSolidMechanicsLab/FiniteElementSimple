@@ -8,6 +8,7 @@
  */
 using System;
 using RandomMath;
+using FiniteElementSimple.Materials;
 
 namespace FiniteElementSimple.Elements
 {
@@ -22,8 +23,8 @@ namespace FiniteElementSimple.Elements
 		public double length;
 		
 		public Node3Element1D(Material elementMaterial, int [] localToGlobalConnectivity,
-		                    double area, double x1, double x2, double x3)
-			:base(elementMaterial, localToGlobalConnectivity, area, 1)
+							double area, double x1, double x2, double x3)
+			:base(elementMaterial, localToGlobalConnectivity, area, 2)
 		{
 			this.x1 = x1;
 			this.x2 = x2;
@@ -50,8 +51,8 @@ namespace FiniteElementSimple.Elements
 		}
 		
 		public override double Det_Of_J(double xi, double eta, double zeta){
-			
-			return RandomMath.MatrixMath.Determinant(J(xi, eta, zeta)) * (area / 4.0);
+
+			return RandomMath.MatrixMath.Determinant(J(xi, eta, zeta));
 		}
 		
 		public override double [,] J(double xi, double eta, double zeta){

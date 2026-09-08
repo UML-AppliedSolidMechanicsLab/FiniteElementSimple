@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using RandomMath;
+using FiniteElementSimple.Materials;
 
 namespace FiniteElementSimple.Elements
 {

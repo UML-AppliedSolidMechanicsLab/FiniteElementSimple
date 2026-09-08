@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using RandomMath;
+using FiniteElementSimple.Materials;
+using FiniteElementSimple.BoundaryConditions;
 
 namespace FiniteElementSimple.Elements
 {
@@ -63,7 +65,7 @@ namespace FiniteElementSimple.Elements
 						double[,] Btemp = B(xi, eta, zeta);
 						double[,] Dtemp = elementMaterial.D(xi, eta, zeta);
 						double[,] NTtemp = MatrixMath.Transpose(ShapeFunction(xi, eta, zeta));
-						double det_J = Det_Of_J(xi, eta, zeta) * (thickness / 2.0);
+						double det_J = Det_Of_J(xi, eta, zeta) * thickness;
 
 						double[,] BTD = MatrixMath.Multiply(MatrixMath.Transpose(Btemp), Dtemp);
 						double[,] BTDBJ = MatrixMath.ScalarMultiply(det_J * w[nIntPts_xi - 1][i] * w[nIntPts_eta - 1][j],
@@ -74,7 +76,7 @@ namespace FiniteElementSimple.Elements
 						{
 							double[] f_b = bf.BodyForce_per_Area(xi, eta, zeta);
 							double[] NTf_body = MatrixMath.Multiply(NTtemp, f_b);
-							double[] tempF = VectorMath.ScalarMultiply((thickness) * det_J * w[nIntPts_xi - 1][i] * w[nIntPts_eta - 1][j], NTf_body);
+							double[] tempF = VectorMath.ScalarMultiply(det_J * w[nIntPts_xi - 1][i] * w[nIntPts_eta - 1][j], NTf_body);
 							f = VectorMath.Add(tempF, f);
 						}
 						foreach (InitialStrain el in lInitialStrain)
@@ -82,7 +84,7 @@ namespace FiniteElementSimple.Elements
 							double[] x = GlobalXPosition(xi, eta, zeta);
 							double[] e0 = el.epsilon_0(x[0], x[1], x[2]);
 							double[] NTe_0 = MatrixMath.Multiply(BTD, e0);
-							double[] tempe0 = VectorMath.ScalarMultiply((thickness) * det_J * w[nIntPts_xi - 1][i] * w[nIntPts_eta - 1][j],  NTe_0);
+							double[] tempe0 = VectorMath.ScalarMultiply(det_J * w[nIntPts_xi - 1][i] * w[nIntPts_eta - 1][j],  NTe_0);
 							f = VectorMath.Add(tempe0, f);
 
 						}

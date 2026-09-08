@@ -9,6 +9,8 @@
 using System;
 using RandomMath;
 using System.Collections.Generic;
+using FiniteElementSimple.Materials;
+using FiniteElementSimple.BoundaryConditions;
 
 namespace FiniteElementSimple.Elements
 {

@@ -7,8 +7,10 @@
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
-using SinglePlotZedGraph;
+using FiniteElementSimple.Plotting;
 using System.Collections.Generic;
+using FiniteElementSimple.BoundaryConditions;
+using FiniteElementSimple.Materials;
 
 namespace FiniteElementSimple.Homework
 {

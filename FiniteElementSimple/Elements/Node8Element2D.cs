@@ -8,6 +8,7 @@
  */
 using System;
 using RandomMath;
+using FiniteElementSimple.Materials;
 
 namespace FiniteElementSimple.Elements
 {

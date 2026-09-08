@@ -8,8 +8,10 @@
  */
 using System;
 using System.Collections.Generic;
-using SinglePlotZedGraph;
+using FiniteElementSimple.Plotting;
 using FiniteElementSimple.Elements;
+using FiniteElementSimple.Materials;
+using FiniteElementSimple.BoundaryConditions;
 
 namespace FiniteElementSimple
 {
@@ -73,10 +75,12 @@ namespace FiniteElementSimple
 			int [][] connMatrix = new int[nElements][];
 			
 			for (int i = 0; i < nElements; i++) {
-				
+
 				connMatrix[i] = new int[nDOF];
 				for (int j = 0; j < nDOF; j++) {
-					connMatrix[i][j] = (nDOF-1)*i + j;
+					//localToGlobalConnectivity uses a 1-index system (see Assembly.AssembleLocalKandF),
+					//so node numbers here must start at 1, not 0.
+					connMatrix[i][j] = (nDOF-1)*i + j + 1;
 				}
 			}
 			return connMatrix;

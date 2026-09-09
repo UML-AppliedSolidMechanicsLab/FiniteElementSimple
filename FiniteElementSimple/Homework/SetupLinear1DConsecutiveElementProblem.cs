@@ -58,7 +58,7 @@ namespace FiniteElementSimple
 				//lBCsCopy.Add(new BC(lBCs[1].dofNumber, lBCs[1].magnitude));
 				
 				//Now create assembly
-				lAssembly.Add(new Assembly(lElements, lLoads, lBCsCopy, 1));
+				lAssembly.Add(new LinearAssembly(lElements, lLoads, lBCsCopy, 1));
 				
 			}
 		}

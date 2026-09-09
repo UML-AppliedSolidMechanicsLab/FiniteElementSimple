@@ -14,9 +14,12 @@ using FiniteElementSimple.Elements;
 namespace FiniteElementSimple
 {
 	/// <summary>
-	/// Description of Assembly.
+	/// Common base class for finite-element assemblies. Holds the shared data (elements, loads,
+	/// displacement BCs, global K/F/Q, and DOF bookkeeping) and shared assembly-related
+	/// functionality used by any solution strategy. Derived classes implement Solve() with their
+	/// own solution sequence (see LinearAssembly for the existing linear solve).
 	/// </summary>
-	public class Assembly
+	public abstract class Assembly
 	{
 		#region Private Members
 		private double C; //Large Constant involved in the Penalty Approach when applying BC's
@@ -40,7 +43,7 @@ namespace FiniteElementSimple
 		#region Constructors
 		
 		///This constructor is used to make a new Assembly
-		public Assembly(List<Element> lElements, List<BC> lLoads, List<BC> lBCs, int nDOFperNode)
+		protected Assembly(List<Element> lElements, List<BC> lLoads, List<BC> lBCs, int nDOFperNode)
 		{
 			this.lBCs = lBCs;
 			this.lLoads = lLoads;
@@ -56,22 +59,13 @@ namespace FiniteElementSimple
 		#endregion
 		
 		#region Public Methods
-		
-		public void Solve(){
-			
-			AssembleLocalKandF();
-			ApplyLoads();
-			ApplyDisplacementBCs();
-			//Actually solve
-			GlobalQ = RandomMath.MatrixMath.LinSolve(GlobalK, GlobalF);
-			AssignGlobalQToElements();
-			
-		}
+
+		public abstract void Solve();
 
 		#endregion
-		
-		#region Private Methods
-		private void AssignGlobalQToElements(){
+
+		#region Protected Methods
+		protected void AssignGlobalQToElements(){
 			
 			//Now add the local K from each element
 			foreach (Element el in lElements) {
@@ -131,14 +125,14 @@ namespace FiniteElementSimple
 			return (maxNodeNumber - 1) * nDOFperNode;
 		}
 		
-		private void ApplyLoads()
+		protected void ApplyLoads()
 		{
 			foreach (BC fbc in lLoads) {
 				GlobalF[fbc.dofNumber] += fbc.magnitude;
 			}
 		}
 		
-		private void ApplyDisplacementBCs()
+		protected void ApplyDisplacementBCs()
 		{
 			C = RandomMath.MatrixMath.GetMax(GlobalK)*1e4;
 			

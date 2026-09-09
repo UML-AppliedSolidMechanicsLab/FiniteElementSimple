@@ -74,7 +74,7 @@ namespace FiniteElementSimple.Tests
             lEl[0].lInitialStrain.Add(e0_1);
             lEl[1].lInitialStrain.Add(e0_2);
 
-            Assembly myAssembly = new Assembly(lEl, lLoads, lBCs, 1);
+            Assembly myAssembly = new LinearAssembly(lEl, lLoads, lBCs, 1);
 
             myAssembly.Solve();
             //Thermal (initial strain) force for a constant-strain rod is F = A*E*alpha*dT

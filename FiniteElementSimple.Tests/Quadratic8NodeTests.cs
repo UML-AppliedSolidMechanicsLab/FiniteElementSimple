@@ -107,7 +107,7 @@ namespace FiniteElementSimple.Tests
             //Pull upper right Corner
             //lLoads.Add(new BC(3, 2, 2, 1.5));
 
-            Assembly myAssembly = new Assembly(lElements, lLoads, lBCs, 2);
+            Assembly myAssembly = new LinearAssembly(lElements, lLoads, lBCs, 2);
 
             myAssembly.AssembleLocalKandF();
 
@@ -151,7 +151,7 @@ namespace FiniteElementSimple.Tests
 
             lElements.Add(myQuad);
 
-            Assembly myAssembly = new Assembly(lElements, lLoads, lBCs, 2);
+            Assembly myAssembly = new LinearAssembly(lElements, lLoads, lBCs, 2);
 
             myAssembly.AssembleLocalKandF();
 

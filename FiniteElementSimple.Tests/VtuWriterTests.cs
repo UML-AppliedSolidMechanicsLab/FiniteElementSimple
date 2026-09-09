@@ -51,7 +51,7 @@ namespace FiniteElementSimple.Tests
 
             List<Element> lElements = new List<Element> { myQuad };
 
-            Assembly myAssembly = new Assembly(lElements, lLoads, lBCs, 2);
+            Assembly myAssembly = new LinearAssembly(lElements, lLoads, lBCs, 2);
             myAssembly.Solve();
 
             string filePath = Path.Combine(Path.GetTempPath(), "VtuWriterTest_" + Guid.NewGuid().ToString("N") + ".vtu");
@@ -136,7 +136,7 @@ namespace FiniteElementSimple.Tests
 
             List<Element> lElements = new List<Element> { myQuad };
 
-            Assembly myAssembly = new Assembly(lElements, lLoads, lBCs, 2);
+            Assembly myAssembly = new LinearAssembly(lElements, lLoads, lBCs, 2);
             myAssembly.Solve();
             return myAssembly;
         }

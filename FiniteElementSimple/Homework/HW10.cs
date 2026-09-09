@@ -97,9 +97,9 @@ namespace FiniteElementSimple.Homework
 				lElements.Add(new Node8Element2D(myMaterial, ConnectivityMatrix[i], thickness, localNodalCoorArray));
 			}
 			
-			Assembly myAssembly = new Assembly(lElements, lLoads, lBCs, 2);
+			Assembly myAssembly = new LinearAssembly(lElements, lLoads, lBCs, 2);
 			myAssembly.Solve();
-			
+
 			//CreateContourPlot(myAssembly, 25, 25, 0, 0, false);
 			//CreateContourPlot(myAssembly, 25, 25, 0, 1, false);
 			//CreateContourPlot(myAssembly, 50, 50, 1, 0);
@@ -147,7 +147,7 @@ namespace FiniteElementSimple.Homework
 
 			double[,] B = myElement.B(0.1, -0.1, 0.0);
 
-			Assembly assembly = new Assembly(myAssembly, new List<BC>(), new List<BC>(), 2);
+			Assembly assembly = new LinearAssembly(myAssembly, new List<BC>(), new List<BC>(), 2);
 
 			CreateContourPlot(assembly, 50, 50, 3, 0, false);
 		}
@@ -195,22 +195,22 @@ namespace FiniteElementSimple.Homework
 			
 			//Load left side
 			lLoads.Add(new BC(4,1,2,force));
-			
+
 			//Create nodal location arrays
 			Node8Element2D myQuad = new Node8Element2D(myMaterial, ConnectivityMatrix[0], thickness, NodalLocations);
 			lElements.Add(myQuad);
-			
-			Assembly myAssembly = new Assembly(lElements, lLoads, lBCs, 2);
+
+			Assembly myAssembly = new LinearAssembly(lElements, lLoads, lBCs, 2);
 			myAssembly.Solve();
-			
+
 			CreateContourPlot(myAssembly, 25, 25, 0, 0, false);
 			CreateContourPlot(myAssembly, 25, 25, 0, 1, false);
 			CreateContourPlot(myAssembly, 25, 25, 2, 0, true);
 			CreateContourPlot(myAssembly, 25, 25, 2, 1, true);
 			CreateContourPlot(myAssembly, 25, 25, 2, 2, true);
-			
+
 		}
-		
+
 		public static void RunEricsExample(){
 			
 			double force = -20.0;
@@ -251,7 +251,7 @@ namespace FiniteElementSimple.Homework
 			Node8Element2D myQuad = new Node8Element2D(myMaterial, ConnectivityMatrix[0], thickness, NodalLocations);
 			lElements.Add(myQuad);
 			
-			Assembly myAssembly = new Assembly(lElements, lLoads, lBCs, 2);
+			Assembly myAssembly = new LinearAssembly(lElements, lLoads, lBCs, 2);
 			myAssembly.Solve();
 			
 			CreateContourPlot(myAssembly, 25, 25, 0, 0, false);
